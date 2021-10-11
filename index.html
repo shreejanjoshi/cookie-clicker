@@ -14,13 +14,16 @@
     <h1>Cookies</h1>
 
     <div id="cookies">
-      <p>Score:</p>
-      <img class="img1" src="assets/cookie.jpeg">
+      <p>Score: <span id="score_count">0<span></p>
+      <img id="clicker" class="img1" src="assets/cookie.png">
     </div>
 
   <div id="buttons">
-    <a class="btn" id="btn1" href="">Counter</a>
-    <a class="btn" id="btn2" href="">Multiplier</a>
+    <button type="button" class="btn" id="default">Default</button>
+    <button type="button" class="btn" id="multiplier">Multiplier * 2 (Cost :<span id="multiplier_cost">10</span>)</button>
+    <button type="button" class="btn" id="autoclicker">Auto Clicker</button>
+    <button type="button" class="btn" id="bonus">Bonus</button>
+    <button type="button" class="btn" id="reset">Reset</button>
   </div>
 
   </div>

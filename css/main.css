@@ -3,30 +3,31 @@
     margin: auto;
     text-align: center;
   }
-  
+
  #cookies{
     text-align: center;
-  
+
   }
-  
+
   body {
     background-color: #475a78;
   }
-  
+
   h1 {
     margin: 30px;
     text-shadow: 5px 0 #232931;
     font-size: 6rem;
     color: #11cdd4;
   }
-  
+
   p {
     font-size: 2rem;
     color: #11cdd4;
   }
-  
+
   img {
     width: 40%;
+    cursor: pointer;
   }
 
   .btn {
@@ -44,8 +45,9 @@
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    cursor: pointer;
   }
-  
+
   .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
