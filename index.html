@@ -11,20 +11,34 @@
 <body>
 
   <div class="container">
-    <h1>Cookies</h1>
-
-    <div id="cookies">
-      <p>Score: <span id="score_count">0<span></p>
-      <img id="clicker" class="img1" src="assets/cookie.png">
+    <h1>Cookies Clicker</h1>
+    <div class="count_wrapper">You have <span id="score_count">0</span> cookies</div>
+    <div class="left">
+      <div id="cookies">
+        <img id="clicker" class="img1" src="assets/cookie.png">
+      </div>
     </div>
+    <div class="right">
+      <div id="multiplier_wrapper">
+        <button type="button" class="btn" id="multiplier">Multiplier (<span id="multiplier_cost">10</span> cookies) <span id="multiplier_purchase_count" style="float:right"></span></button>
+        <div id="more_info_multiplier" class="more_info hidden">
+          When you buy this, it will multiply the click by 2 for the first purchase, by 4 times, 6 times, 8 times for 2nd, 3rd and 4th purchase and so on.
+        </div>
+      </div>
+      <div id="autoclicker_wrapper">
+        <button type="button" class="btn" id="autoclicker">Auto Clicker (<span id="autoclicker_cost">20</span> cookies) <span id="autoclicker_purchase_count" style="float:right"></span></button>
+        <div id="more_info_autoclicker" class="more_info hidden">
+          When you buy this, it will add 1 cookir per second for the first purchase, 2, 3 4 cookies per second for the 2nd, 3rd and 4th purchase and so on.
+        </div>
+      </div>
+      <div id="bonus_wrapper">
+        <button type="button" class="btn" id="bonus">Bonus (<span id="bonus_cost">30</span> cookies) <span id="bonus_purchase_count" style="float:right"></span></button>
+        <div id="more_info_bonus" class="more_info hidden">
+          When you buy this, it will multiply the click by 3 for the first purchase, by 6 times, 9 times, 12 times for 2nd, 3rd and 4th purchase and so on.
+        </div>
+      </div>
 
-  <div id="buttons">
-    <button type="button" class="btn" id="default">Default</button>
-    <button type="button" class="btn" id="multiplier">Multiplier * 2 (Cost :<span id="multiplier_cost">10</span>)</button>
-    <button type="button" class="btn" id="autoclicker">Auto Clicker</button>
-    <button type="button" class="btn" id="bonus">Bonus</button>
-    <button type="button" class="btn" id="reset">Reset</button>
-  </div>
+    </div>
 
   </div>
 
