@@ -91,7 +91,7 @@
         type = "bonus";
         setTimeout(function() {
           type =  "default"
-        },3000);
+        },10000);
         bonus_purchase_count = "";
         for(i=0;i<bonus_purchase; i++) {
           bonus_purchase_count = bonus_purchase_count + `| `;
