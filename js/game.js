@@ -25,9 +25,7 @@
     if(type == 'bonus') {
       score = score + 5;
     }
-
     loadscore();
-
   }
 
   function loadscore()  {
